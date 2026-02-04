@@ -1,0 +1,26 @@
+{
+  "name": "Quick Translation & Definition",
+  "description": "Easily see translations, definitions, and synonyms of words",
+  "version": "0.1",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "scripts/backgroundWorker.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [ "<all_urls>" ],
+      "js": [ "scripts/injectedScript.js" ],
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": ["sidePanel", "scripting", "activeTab"],
+  "side_panel": {
+    "default_path": "popup.html"
+  },
+  "action": {
+    "default_title": "Click to open"
+  },
+  "externally_connectable": {
+    "matches" : [ "<all_urls>" ]
+  }
+}

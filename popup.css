@@ -1,0 +1,20 @@
+body {
+  font-family: 'Courier New', 'monospace';
+  font-size: 16px;
+  /*width: 20rem;*/
+  height: 17rem;
+  background: white;
+}
+
+input {
+  font-family: 'Courier New', 'monospace';
+  font-size: 16px;
+  /*width: 20rem;*/
+  background: white;
+}
+.selectors {
+  color: white;
+  background-color: #4f66e8;
+  font-family: inherit;
+  border: none;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Quick Translation & Definition</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="popup.css" />
+    <script type="module" src="scripts/sidePanel.js"></script>
+    <script type="module" src="scripts/TabInjection.js"></script>
+    <script type="module" src="scripts/FetchTranslation.js"></script>
+  </head>
+  <body>
+    <h2>Quick Translation & Definition</h2>
+    <form id="options">
+      <button class="selectors" id="enableButton">Translations Enabled</button> 
+      <select class="selectors" name="languages-from-select" id="languagesFrom">
+      </select>
+      <select class="selectors" name="languages-to-select" id="languagesTo">
+      </select>
+      <select class="selectors" name="type-of-select" id="type">
+      </select>
+      <input id="typeWord" type="text" placeholder="Search here or click on a word..."></input>
+    </form>
+    <ol id="result">Definition will appear here</ol>
+  </body>
+</html>
+
