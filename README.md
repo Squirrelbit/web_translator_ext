@@ -1,5 +1,6 @@
 # web_translator_ext
 A browser extension to easily translate words between languages and look up their synonyms and definitions
+
 Started Feb 2025 for a day-long hackathon
 
 MUCH CREDIT GOES TO WORDREFERENCE.COM FOR PROVIDING THE BACKEND.
